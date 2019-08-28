@@ -1,10 +1,13 @@
-# periderm_ATACSeq
-Scripts for periderm_ATACSeq paper 
+### Periderm_ATACSeq
 
-### Python Day 11 面向对象
+---------------
 
-#### 类的创建
+**Scripts for periderm_ATACSeq paper published in..**
 
-实例方法的创建语句，和函数的定义语句很类似，唯一不同的是：实例方法中有个必须放在首位的参数`self`。
+#### Scripts for Figure 1
 
-类名的首字母要大写
+**Name** ./Figure 1/
+
+**Comments** Used for generating heatmap for Figure 1B
+
+
