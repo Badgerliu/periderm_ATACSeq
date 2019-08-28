@@ -6,7 +6,7 @@
 
 #### Scripts for Figure 1
 
-**Name** ./Figure 1/
+**Name** ./Figure_1/
 
 **Comments** Used for generating heatmap for Figure 1B
 
