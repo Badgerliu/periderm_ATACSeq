@@ -1,12 +1,9 @@
-flow: true
-sequence:true
 ### Periderm_ATACSeq
 
 ---------------　
 
 **Scripts for periderm_ATACSeq paper published in..**
-[] ok
-[x]
+
 
 ```flow
 st=>start: Start
