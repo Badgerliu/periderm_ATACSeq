@@ -4,9 +4,21 @@
 
 **Scripts for periderm_ATACSeq paper published in..**
 
+
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+
 ####General workflow for ATAC-seq data process
 
-flow
+```flow
 st=>start: raw paired-end fastq files
 op1=>operation: Trimmomatic
 op2=>operation:bowtie2 mapping
@@ -20,6 +32,7 @@ e2=>end:peak files
 st->op1->op2->op3->op4->cond
 cond(bw)->op5->e1
 cond(peak)->op6->e2
+```
 
 #### Scripts for Figure 1
 
