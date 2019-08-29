@@ -1,6 +1,16 @@
+flow: true
+
 ### Periderm_ATACSeq
 
 ---------------
+```go
+  package main
+  import "fmt"
+  func main(){
+      fmt.printf("hello go!")
+  }　
+```
+
 
 **Scripts for periderm_ATACSeq paper published in..**
 
