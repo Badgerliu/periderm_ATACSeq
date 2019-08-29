@@ -2,16 +2,11 @@ flow: true
 sequence:true
 ### Periderm_ATACSeq
 
----------------
-```sequence
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
-```　
+---------------　
 
 **Scripts for periderm_ATACSeq paper published in..**
-
+[] ok
+[x]
 
 ```flow
 st=>start: Start
