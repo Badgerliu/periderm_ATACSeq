@@ -18,8 +18,8 @@ java -jar trimmomatic-0.38.jar PE -phred33 C1_1.fq.gz C1_2.fq.gz C1_1_paired.fq.
 
 
 - Size selection using custom scripts
--- size_selection.py (using deeptools as environment) to generate samfiles of NucleosomeFreeRegions and monoNucleosomeRegions
--- SB_conversion.sh to generate bamfiles of nucleosomeFreeRegions
+1) size_selection.py (using deeptools as environment) to generate samfiles of NucleosomeFreeRegions and monoNucleosomeRegions
+2) SB_conversion.sh to generate bamfiles of nucleosomeFreeRegions
 
 - To get bigWig outputs using deeptools
 
