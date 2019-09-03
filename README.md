@@ -1,6 +1,6 @@
 ### Periderm_ATACSeq
 
----------------　
+---------------
 
 **Scripts for periderm_ATACSeq paper published in..**
 
@@ -18,12 +18,17 @@ java -jar trimmomatic-0.38.jar PE -phred33 C1_1.fq.gz C1_2.fq.gz C1_1_paired.fq.
 
 
 - Size selection using custom scripts
-1) size_selection.py (using deeptools as environment) to generate samfiles of NucleosomeFreeRegions and monoNucleosomeRegions
-2) SB_conversion.sh to generate bamfiles of nucleosomeFreeRegions
 
-- To get bigWig outputs using deeptools
+* * 1) size_selection.py (using deeptools as environment) to generate samfiles of NucleosomeFreeRegions and monoNucleosomeRegions
 
-- To 
+* * 2) SB_conversion.sh to generate bamfiles of nucleosomeFreeRegions
+
+
+- bigWig outputs using deeptools
+
+- peakCalling using MACS2
+
+  
 #### Scripts for Figure 1
 
 **Name** ./Figure_1/
