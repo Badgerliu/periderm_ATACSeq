@@ -1,4 +1,4 @@
-### Periderm_ATACSeq
+## Periderm_ATACSeq
 
 ---------------
 
@@ -6,7 +6,7 @@
 
 
 
-####General workflow for ATAC-seq data process
+#### General workflow for ATAC-seq data process
 - Environment setup (Ubuntu 18.0 or MacOS 10.12)
 - QC using FastQC
 - Trim the raw sequencing data using Trimmomatic (v0.36): (example paired-end raw read: C1_1.fq.gz, C1_2.fq.gz; dump unpaired output)
@@ -68,7 +68,7 @@ java -jar trimmomatic-0.38.jar PE -phred33 C1_1.fq.gz C1_2.fq.gz C1_1_paired.fq.
 
 
 
-####General workflow for H3K27Ac ChIP-seq data process
+#### General workflow for H3K27Ac ChIP-seq data process
 
 - Environment setup (Ubuntu 18.0)
 - QC using FastQC
