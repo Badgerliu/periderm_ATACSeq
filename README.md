@@ -101,6 +101,8 @@ java -jar trimmomatic-0.38.jar PE -phred33 HIOEC_D3_H3K27Ac_1.fq.gz HIOEC_D3_H3K
 
   
 
+Machine learning scripts using gkSVM
+
 
 
 #### Example script for plot
