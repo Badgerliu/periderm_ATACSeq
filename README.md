@@ -1,4 +1,4 @@
-### Periderm_ATACSeq
+## Periderm_ATACSeq
 
 ---------------
 
@@ -6,7 +6,7 @@
 
 
 
-####General workflow for ATAC-seq data process
+###General workflow for ATAC-seq data process
 - Environment setup (Ubuntu 18.0 or MacOS 10.12)
 - QC using FastQC
 - Trim the raw sequencing data using Trimmomatic (v0.36): (example paired-end raw read: C1_1.fq.gz, C1_2.fq.gz; dump unpaired output)
@@ -68,7 +68,7 @@ java -jar trimmomatic-0.38.jar PE -phred33 C1_1.fq.gz C1_2.fq.gz C1_1_paired.fq.
 
 
 
-####General workflow for H3K27Ac ChIP-seq data process
+###General workflow for H3K27Ac ChIP-seq data process
 
 - Environment setup (Ubuntu 18.0)
 - QC using FastQC
@@ -103,11 +103,11 @@ java -jar trimmomatic-0.38.jar PE -phred33 HIOEC_D3_H3K27Ac_1.fq.gz HIOEC_D3_H3K
 
 
 
-#### Example script for plot
+### Example script for plot
 
 example scripts for plot
 
-#### Scripts for Figure 1
+### Scripts for Figure 1
 
 **Name** ./Figure_1/
 
@@ -121,7 +121,7 @@ Figure 1I: boxplot using the normalized accessibility for each indicated group, 
 
 
 
-#### Scritps for Figure 2
+### Scritps for Figure 2
 
 **Name** ./Figure_2/
 
@@ -129,7 +129,7 @@ Figure 2C: centipede script for footprint (Centipede_script_cldne_GRHL3.R)
 
 
 
-#### Scripts for Figure 3
+### Scripts for Figure 3
 
 **Name** ./Figure_3/
 
@@ -137,5 +137,5 @@ Figure 3 B: ROC and P-R curve (ROC_and_PR.R)
 
 
 
-#### Scripts for the density plots and heatmaps in Figure 5 are similar as those in Figure 1.
+### Scripts for the density plots and heatmaps in Figure 5 are similar as those in Figure 1.
 
