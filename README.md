@@ -26,6 +26,10 @@ java -jar trimmomatic-0.38.jar PE -phred33 C1_1.fq.gz C1_2.fq.gz C1_1_paired.fq.
 
 - bigWig outputs using deeptools: generate_bw_mm10.sh (for mouse data), generate_bw_hg19.sh (for human data) generate_bw_zv9.sh (for zebrafish data)
 - peakCalling using MACS2: shift_and_peak_calling_zv9.sh (for zebrafish data); shift_and_peak_calling_mm10.sh (for mouse data); shift_and_peak_calling_hg19.sh (for human data)
+- DiffBind using EdgeR was used for detection of different accessible regions in the consensus peaks between two group, example script was used: DiffBind_zebrafish_periderm.R
+
+
+
 #### Example script for plot
 
 example scripts for plot
@@ -40,8 +44,25 @@ Figure 1C and D: using matrix for Figure 1B and plot by R density plot (example 
 
 Figure 1H: scatter plot using R (example script scatter_plot.R)
 
+Figure 1I: boxplot using the normalized accessibility for each indicated group, normalization was performed using DiffBind (EdgeR algorithm)
 
 
-**Comments** Used for generating heatmap for Figure 1B
 
+#### Scritps for Figure 2
+
+**Name** ./Figure_2/
+
+Figure 2C: centipede script for footprint (Centipede_script_cldne_GRHL3.R)
+
+
+
+#### Scripts for Figure 3
+
+**Name** ./Figure_3/
+
+Figure 3 B: ROC and P-R curve (ROC_and_PR.R)
+
+
+
+#### Scripts for the density plots and heatmaps in Figure 5 are similar as those in Figure 1.
 
