@@ -12,7 +12,7 @@ for sample in *.bam
 		describer=$(echo ${sample} | sed 's/_m_d.bam//') # define the describer with sed function
 		echo $describer  
 		#Normalization using deeptools
-		bamCoverage --bam ${describer}_m_d.bam -o ${describer}.bw --binSize 10 --normalizeUsing RPGC --effectiveGenomeSize 2719482043 --ignoreForNormalization chrX chrM --extendReads
+		bamCoverage --bam ${describer}_m_d.bam -o ${describer}.bw --binSize 10 --normalizeUsing RPGC --effectiveGenomeSize 1412000000 --ignoreForNormalization chrX chrM --extendReads
 		echo Normalization with ${describer} is done
 		let counter=counter+1
 		echo ${counter} bamfiles have been finished
