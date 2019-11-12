@@ -109,7 +109,14 @@ java -jar trimmomatic-0.38.jar PE -phred33 HIOEC_D3_H3K27Ac_1.fq.gz HIOEC_D3_H3K
 
 - Nr10mers.fa was used to probe the enriched motif(s) in the training sets.
 
-  
+
+
+
+#### General workflow for examine the pattern of motifs combination in GPAEs
+
+- Scripts: all included in **motif_combination**/ folder.
+- To perform hierarchy clustering for the motif combination pattern in GPAEs, we used hierarchy_cluster_motif_combination_pattern_in_GPAE.R
+- To count the GPAEs with different sets of 3-motif combinations and 2-motif combinations, we used motif_combination_count.R
 
 
 
