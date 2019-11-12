@@ -101,7 +101,15 @@ java -jar trimmomatic-0.38.jar PE -phred33 HIOEC_D3_H3K27Ac_1.fq.gz HIOEC_D3_H3K
 
   
 
-Machine learning scripts using gkSVM
+#### General workflow for gkmSVM-based machine learning process
+
+- Scripts:  all included in **gkmSVM_script**/ folder; example script for generating vector based on GPAEs without promoters gkmSVM_fish.R.
+
+- To generate null sequence (negative sets): fish sequences using genNullSeqs_drerio.R, mouse sequenes using genNullSeqs_mice_real.R
+
+- Nr10mers.fa was used to probe the enriched motif(s) in the training sets.
+
+  
 
 
 
