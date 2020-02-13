@@ -2,7 +2,7 @@
 
 ---------------
 
-Scripts for periderm_ATACSeq paper published in eLife (https://elifesciences.org/articles/51325) 
+### Scripts for periderm_ATACSeq paper published in eLife (https://elifesciences.org/articles/51325) 
 
 
 
