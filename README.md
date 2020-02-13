@@ -2,7 +2,7 @@
 
 ---------------
 
-**Scripts for periderm_ATACSeq paper published in..**
+**Scripts for periderm_ATACSeq paper published in eLife (https://elifesciences.org/articles/51325) **
 
 
 
@@ -155,4 +155,7 @@ Figure 3 B: ROC and P-R curve (ROC_and_PR.R)
 
 
 #### Scripts for the density plots and heatmaps in Figure 5 are similar as those in Figure 1.
+
+
+#### Other information about the deposited datasets in GEO are listed in Other data####
 
